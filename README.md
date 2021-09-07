@@ -34,3 +34,30 @@ In order for seamless github functioning, it is advised to set SSH creds instead
 bash set_git_creds.sh
 ```
 Now, the public key will be copied to your clipboard. On github, go to Settings > SSH & GPG keys > Add new key -> Add the key!
+
+## Aesthetics
+
+### Set colors
+
+### Set terminal prompt
+
+## Programming
+
+### Setup `miniconda`
+Download the relevant installer from [here](https://docs.conda.io/en/latest/miniconda.html#linux-installers).
+```bash
+cd /your/desired/location/
+# replace the link with link to your relevant installer
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh
+```
+
+Run the installation:
+```bash
+bash Miniconda3-py39_4.10.3-Linux-x86_64.sh
+```
+
+If you'd prefer that conda's base environment not be activated on startup,
+set the auto_activate_base parameter to false:
+```bash
+conda config --set auto_activate_base false
+```
