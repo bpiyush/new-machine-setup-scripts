@@ -1,4 +1,4 @@
-# new-machine-setup-scripts
+# NeMeSeS: NEw-MachinE-SEtup-Scripts
 Bunch of scripts useful to add when starting on a new machine
 
 
