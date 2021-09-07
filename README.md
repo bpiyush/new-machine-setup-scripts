@@ -65,3 +65,7 @@ conda config --set auto_activate_base false
 ### Setup `virtualenv`
 
 This may be already installed by root. Check `virtualenv --version`.
+
+### Setup `tmux`
+
+This may be already installed by root. If not, ask your root to install it.
