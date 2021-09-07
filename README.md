@@ -8,3 +8,11 @@ See [bash_aliases.sh](bash_aliases.sh) for useful aliases and useful bash utilit
 ```bash
 source ~/.bash_aliases
 ```
+
+## Git SSH keys
+
+In order for seamless github functioning, it is advised to set SSH creds instead of using password everytime you use git. Refer to [`set_git_creds.sh`](set_git_creds.sh) for more details. Run:
+```bash
+bash set_git_creds.sh
+```
+Now, the public key will be copied to your clipboard. On github, go to Settings > SSH & GPG keys > Add new key -> Add the key!
