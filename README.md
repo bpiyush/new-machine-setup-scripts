@@ -10,6 +10,8 @@ git clone https://github.com/bpiyush/new-machine-setup-scripts.git
 ```
 This will clone the repo and you are ready to go!
 
+Most parts of this repo are borrowed from [here](https://bpiyush.github.io/ml-engg-docs/new_machine.html). Check it out for longer version.
+
 ## Aliases
 
 See [bash_aliases.sh](bash_aliases.sh) for useful aliases and useful bash utility functions. You may add a file `.bash_aliases` in your home directory, you can simply copy the relevant file:
