@@ -9,7 +9,7 @@ while getopts "m:u:" OPTION; do
     esac
 done
 
-keyname="id_rsa_$machine_ip"
+keyname="id_rsa_"$HOSTNAME"_to_$machine_ip"
 loginid="$username@$machine_ip"
 
 # generate SSH key pair on local machine
@@ -18,3 +18,7 @@ chmod 400 ~/.ssh/$keyname
 
 # copy the public key to remote machine
 ssh-copy-id -i ~/.ssh/$keyname $loginid
+
+# print out the command
+echo "Use ssh -i ~/.ssh/$keyname $username@$machine_ip to login to remote machine without password."
+echo "TIP: You can put this as an alias to save time."
