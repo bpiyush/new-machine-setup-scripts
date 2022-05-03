@@ -41,6 +41,15 @@ Now, the public key will be copied to your clipboard. On github, go to Settings 
 
 ### Set terminal prompt
 
+```sh
+# Set the terminal prompt
+function parse_git_branch() {
+        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="=> \[\033[32m\] \W\[\033[34m\]\$(parse_git_branch)\[\033[00m\] $ "
+```
+
 ## Programming
 
 ### Setup `miniconda`
