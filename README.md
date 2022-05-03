@@ -39,6 +39,11 @@ Now, the public key will be copied to your clipboard. On github, go to Settings 
 
 ### Set colors
 
+For colorful `ls` command, set the following in your `~/.bashrc`
+```sh
+alias ls='ls --color=always'
+```
+
 ### Set terminal prompt
 
 ```sh
