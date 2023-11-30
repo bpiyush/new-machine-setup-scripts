@@ -84,6 +84,10 @@ This may be already installed by root. Check `virtualenv --version`.
 
 This may be already installed by root. If not, ask your root to install it.
 
+### Useful keyboard shortcuts for terminal
+
+Please follow this [stackoverflow answer](https://stackoverflow.com/questions/12335787/with-iterm2-on-mac-how-to-delete-forward-a-word-from-cursor-on-command-line).
+
 ### Setup VSCode for remode code editing
 
 Install VSCode on your local Machine (e.g. Mac). You can edit repositories on your remote machine simply by the power of VSCode + SSH. Install the [Remote - SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) and you should be done!
