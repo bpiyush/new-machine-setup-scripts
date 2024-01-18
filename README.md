@@ -91,3 +91,8 @@ Please follow this [stackoverflow answer](https://stackoverflow.com/questions/12
 ### Setup VSCode for remode code editing
 
 Install VSCode on your local Machine (e.g. Mac). You can edit repositories on your remote machine simply by the power of VSCode + SSH. Install the [Remote - SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) and you should be done!
+
+
+### FFMPEG Installation on Linux machine
+
+* [John van Sickle](https://johnvansickle.com/ffmpeg/)
